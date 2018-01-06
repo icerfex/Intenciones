@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.nextsofts.intenciones.MainActivity">
+
+   <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+       <Button
+               android:layout_width="match_parent"
+               android:text="Abrir pagina web"
+               android:onClick="pgweb"
+               android:layout_height="wrap_content"/>
+       <Button
+               android:layout_width="match_parent"
+               android:text="llamada telefonica"
+               android:onClick="llamadaTelefonica"
+               android:layout_height="wrap_content"/>
+       <Button
+               android:layout_width="match_parent"
+               android:text="Google mps"
+               android:onClick="googleMaps"
+               android:layout_height="wrap_content"/>
+       <Button
+               android:layout_width="match_parent"
+               android:text="tomar foto"
+               android:onClick="tomarFoto"
+               android:layout_height="wrap_content"/>
+       <Button
+               android:layout_width="match_parent"
+               android:text="mandar correo"
+               android:onClick="mandarCorreo"
+               android:layout_height="wrap_content"/>
+   </LinearLayout>
+</ScrollView>
