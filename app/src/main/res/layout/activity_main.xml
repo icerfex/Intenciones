@@ -35,5 +35,9 @@
                android:text="mandar correo"
                android:onClick="mandarCorreo"
                android:layout_height="wrap_content"/>
+       <Button
+               android:layout_width="match_parent"
+               android:text="prueba"
+               android:layout_height="wrap_content"/>
    </LinearLayout>
 </ScrollView>
